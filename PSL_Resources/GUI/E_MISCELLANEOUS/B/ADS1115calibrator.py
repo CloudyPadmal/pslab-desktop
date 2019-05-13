@@ -26,7 +26,7 @@ import PyQt5.sip as sip
 sip.setapi("QString", 2)
 sip.setapi("QVariant", 2)
 
-import templates.ui_ADS1115calibrator as ADS1115calibrator
+import templates.auto_ADS1115calibrator as ADS1115calibrator
 
 import numpy as np
 from PyQt5 import QtGui, QtCore
